@@ -1,0 +1,20 @@
+,day,time,user,message
+0,2022-03-08,04:34:44,dimeax00,Kekspin
+1,2022-03-08,04:41:10,dimeax00,YEP sweat smell
+2,2022-03-08,04:41:47,dimeax00,BOOBA
+3,2022-03-08,04:42:09,dimeax00,KEKW
+4,2022-03-08,04:42:26,dimeax00,KEKL
+5,2022-03-08,04:58:57,dimeax00,gachiW
+6,2022-03-08,04:59:34,dimeax00,gachiW 󠀀
+7,2022-03-08,05:00:02,dimeax00,Hmm
+8,2022-03-08,05:00:47,dimeax00,yeah
+9,2022-03-08,05:01:27,dimeax00,KEKW
+10,2022-03-08,05:13:32,dimeax00,WutFace
+11,2022-03-08,05:14:11,dimeax00,KEKInsane
+12,2022-03-08,06:04:24,dimeax00,FeelsStrongMan GuitarTime
+13,2022-03-08,06:04:35,dimeax00,peepoClap
+14,2022-03-08,06:05:46,dimeax00,MmmHmm GuitarTime
+15,2022-03-08,06:09:08,dimeax00,peepoClap
+16,2022-03-08,06:09:20,dimeax00,peepoClap 󠀀
+17,2022-03-08,06:16:42,dimeax00,peepoClap
+18,2022-03-08,06:19:07,dimeax00,yyjHey
