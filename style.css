@@ -134,3 +134,9 @@ tr:nth-child(even) {
 {
   width: 1000px;
 }
+.note
+{
+  font-size: 10px;
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.562);
+}
