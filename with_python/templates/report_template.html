@@ -1,0 +1,40 @@
+    <html>
+        <head>
+            <title>{{page_title_text}}</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <div class="container0">
+                <div class="containerh">
+                    <img class="left" src="yyjwiggle_left.png" alt="yyjwiggle_left">
+                    <img class="right" src="yyjwiggle_right.png" alt="yyjwiggle_right">
+                    <h1>{{title_text}}</h1>
+                    <h2>{{Day}}</h2>
+                </div>
+                <div class="containertopchatters">
+                    <h3>{{top20Chatters_text}}</h3>
+                    {{readytop20chatters.to_html(index=False)}}
+                    <p class="note">  <strong>NOTE:</strong> If the number of totals used emotes is greater than the total of messages sent by the user that happens because an emote can be used multiple times in one message.</p>
+                </div>
+                <div class="MostUsedEmote">
+                    <h3>{{MostUsedEmote_text}}</h3>
+                    {{Cleanreadytop20chatters.to_html(index=False)}}
+                </div>
+                <div class="pie_chart">
+                    <h3 class="pie_title">{{topchatterspie_text}}</h3>
+                    <img class="pie" src="plot.png" alt="pie">
+                    <div class="text_pieChart">
+                        <p class="t">Messages logged today = {{totalChatters_text}}</p>
+                        <p class="t">Sum of total 20 messages = {{totalTop20Chatters}}</p>
+                        <p class="t">Perentage of Top 20 chatters = {{percentageTop20Chatter_text}} %</p>
+                        <p class="t">Sum of total 5 messages = {{totalTop5Chatters_text}}</p>
+                        <p class="t">Perentage of Top 5 chatters = {{percentageTop5Chatter_text}} %</p>
+                    </div>
+                </div>
+                <div class="more_data">
+                    <h3 class="Moredatatitle">{{moredatatitle}}</h3>
+                    {{moreData.to_html(index=False)}}
+                <div>               
+            </div>
+        </body>
+    </html>
