@@ -1,2 +1,1 @@
-*.log
-with_python/*.png
+**/with_python/*.png
