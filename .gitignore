@@ -1,4 +1,4 @@
 **/*.csv
 **/*.png
-**/*.png
-*.txt
+**/*.log
+with_python/*.txt
