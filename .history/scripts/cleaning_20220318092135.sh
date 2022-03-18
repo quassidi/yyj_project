@@ -1,9 +1,4 @@
 #!/bin/bash
-#-------------------------------------------------------------------------------------------------------------------
-#if u have a problem with script on windows problably is a Carriage return
-# you can fix it with these command 
-# cat scripts/cleaning.sh | tr -d '\r'
-#-------------------------------------------------------------------------------------------------------------------
 #merge files with date /usr/bin/merge
 merge > data.txt &&
 # cleaning the ""

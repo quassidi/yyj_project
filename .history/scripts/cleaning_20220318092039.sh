@@ -1,9 +1,4 @@
 #!/bin/bash
-#-------------------------------------------------------------------------------------------------------------------
-#if u have a problem with script on windows problably is a Carriage return
-# you can fix it with these command 
-# cat scripts/cleaning.sh | tr -d '\r'
-#-------------------------------------------------------------------------------------------------------------------
 #merge files with date /usr/bin/merge
 merge > data.txt &&
 # cleaning the ""
@@ -29,4 +24,4 @@ sed '1,/super_stream_server|Scene switched to  Live/d' readydata.txt > awkcleani
 #search all lines that contains # and delete them
 awk '!/just earned/ &&  !/sending messages too quickly/ && !/emote-only/ && !/You can find your currently available/ && !/raiders from/ && !/redeemed/ && !/streamelements/ && !/innytty is live!/' awkcleaning.txt > yyj.txt
 # removing the files a.txt b.txt c.txt d.txt
-rm a.txt b.txt c.txt d.txt data.txt yyjdata.txt time.txt readydata.txt awkcleaning.txt mssgs.txt withoutcomillas.txt
+rm a.txt b.txt c.txt d.txt data.txt yyjdata.txt time.txt readydata.txt aaaaa.txt mssgs.txt withoutcomillas.txt
