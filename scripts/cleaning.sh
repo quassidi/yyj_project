@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash 
 #merge files with date /usr/bin/merge
 merge > data.txt &&
 # cleaning the ""
