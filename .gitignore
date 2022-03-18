@@ -3,3 +3,4 @@
 **/*.log
 **/*.pdf
 with_python/*.txt
+with_python/html_report_jinja.html
