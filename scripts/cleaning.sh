@@ -11,7 +11,7 @@ sed 's/"//g' data.txt > withoutcomillas.txt &&
 # cleaning the |
 sed 's/|//g' withoutcomillas.txt > datawithits.txt &&
 #Cleaning It's and it's 
-sed -r "s/It's/its/g" datawithits.txt | sed -r "s/it's/its/g" > yyjdata.txt &&
+sed -r "s/It’s/its/g" datawithits.txt | sed -r "s/It’s/its/g" > yyjdata.txt &&
 #clean the first column and export only the data in a new file
 awk '{print substr($1,12,10); }' yyjdata.txt > a.txt &&
 #take the column of time to another file
