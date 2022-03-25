@@ -9,7 +9,9 @@ merge > data.txt &&
 # cleaning the ""
 sed 's/"//g' data.txt > withoutcomillas.txt &&
 # cleaning the |
-sed 's/|//g' withoutcomillas.txt > yyjdata.txt &&
+sed 's/|//g' withoutcomillas.txt > datawithits.txt &&
+#Cleaning It's and it's 
+sed -r "s/It's/its/g" datawithits.txt | sed -r "s/it's/its/g" > yyjdata.txt &&
 #clean the first column and export only the data in a new file
 awk '{print substr($1,12,10); }' yyjdata.txt > a.txt &&
 #take the column of time to another file
@@ -29,4 +31,4 @@ sed '1,/super_stream_server|Scene switched to  Live/d' readydata.txt > awkcleani
 #search all lines that contains # and delete them
 awk '!/just earned/ &&  !/sending messages too quickly/ && !/emote-only/ && !/You can find your currently available/ && !/raiders from/ && !/redeemed/ && !/streamelements/ && !/innytty is live!/' awkcleaning.txt > yyj.txt
 # removing the files a.txt b.txt c.txt d.txt
-rm a.txt b.txt c.txt d.txt data.txt yyjdata.txt time.txt readydata.txt awkcleaning.txt mssgs.txt withoutcomillas.txt
+rm a.txt b.txt c.txt d.txt data.txt yyjdata.txt time.txt readydata.txt awkcleaning.txt mssgs.txt withoutcomillas.txt datawithits.txt
