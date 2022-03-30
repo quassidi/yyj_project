@@ -9,7 +9,7 @@
                     <img class="left" src="yyjwiggle_left.png" alt="yyjwiggle_left">
                     <img class="right" src="yyjwiggle_right.png" alt="yyjwiggle_right">
                     <h1>{{title_text}}</h1>
-                    <h2>{{Day}}</h2>
+                    <h2>{{Day}}, hours Streamed {{Hours_stream}} </h2>
                 </div>
                 <div class="containertopchatters">
                     <h3>{{top20Chatters_text}}</h3>
@@ -29,12 +29,9 @@
                         <p class="t">Perentage of Top 20 chatters = {{percentageTop20Chatter_text}} %</p>
                         <p class="t">Sum of total 5 messages = {{totalTop5Chatters_text}}</p>
                         <p class="t">Perentage of Top 5 chatters = {{percentageTop5Chatter_text}} %</p>
+                        <p class="t">Unique chatters = {{tota_unique_chatters}}</p>
                     </div>
-                </div>
-                <div class="more_data">
-                    <h3 class="Moredatatitle">{{moredatatitle}}</h3>
-                    {{moreData.to_html(index=False)}}
-                <div>               
+                </div>             
             </div>
         </body>
     </html>
