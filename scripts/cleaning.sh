@@ -25,9 +25,9 @@ awk -F: '{ for(i=1; i<=3; i++){ $i="" }; print $0 }' yyjdata.txt > mssgs.txt &&
 #deleting spaces from mssgs
 awk '{print substr($0, 5, length($0))}' mssgs.txt > d.txt &&
 # merging the files a, b, and c into one file
-paste -d '\|' a.txt b.txt c.txt d.txt > awkcleaning.txt &&
+paste -d '\|' a.txt b.txt c.txt d.txt > readydata.txt &&
 #starting stream
-#sed '1,/super_stream_server|Scene switched to  Live/d' readydata.txt > awkcleaning.txt &&
+sed '1,/super_stream_server|Scene switched to  Live/d' readydata.txt > awkcleaning.txt &&
 #search all lines that contains # and delete them
 awk '!/just earned/ &&  !/sending messages too quickly/ && !/emote-only/ && !/You can find your currently available/ && !/raiders from/ && !/redeemed/ && !/streamelements/ && !/innytty is live!/' awkcleaning.txt > yyj.txt
 # removing the files a.txt b.txt c.txt d.txt
